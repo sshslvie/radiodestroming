@@ -9,3 +9,12 @@ h2 {
   font-size: max(6vw, 3em);
   line-height: 1em;
 }
+
+.box {
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 10px;
+  color: var(--color2);
+  background-color: var(--color3);
+  padding: 16px;
+}
