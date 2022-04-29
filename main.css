@@ -20,7 +20,7 @@ h2 {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color4);
   font-size: max(4vw, 1em);
-  line-height: 1em;
+  line-height: 7em;
 }
 
 h1  {
