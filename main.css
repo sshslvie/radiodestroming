@@ -22,10 +22,14 @@ body {
   height: 45px;
   position: fixed;
   top: 0px;
-  background-color: red;
+  background-color: darkgreen;
   border-bottom: 1px solid white;
 }
 
 .marquee3k {
   padding-top: 8px;
+}
+
+.marquee3k__copy {
+  padding-right: 30px;
 }
