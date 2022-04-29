@@ -1,4 +1,11 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+@font-face {
+  font-family:"OCR A Std Regular";
+  src: url("./fonts/OCR A Std Regular.ttf") format("truetype");
 }
 
+h2 {
+  font-family: "OCR A Std Regula";
+  color: var(--color4);
+  font-size: max(6vw, 3em);
+  line-height: 1em;
+}
