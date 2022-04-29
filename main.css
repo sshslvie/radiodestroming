@@ -23,11 +23,20 @@ h2 {
   line-height: 1em;
 }
 
+h1  {
+  font-family: "OCR A Std Regular" , Garamond;
+  color: var(--color4);
+  font-size: min(4vw, 1em);
+  line-height: 1em;
+}
+
+
 .box {
   overflow: hidden;
   border-radius: 25px;
   padding: 10px;
   color: var(--color2);
-  background-color: var(--color3);
+  background-color: var(--color4);
   padding: 16px;
+  top: 6%;
 }
