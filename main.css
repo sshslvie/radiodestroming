@@ -5,7 +5,7 @@
 
 * {
   /* use these varibles to change colors on the whole page */
-  --color1: #fbffc1;
+  --color1: white;
   --color2: #b1e1ff;
   --color3: #0046e8;
   --color4: red;
@@ -25,7 +25,7 @@ h2 {
 
 h1  {
   font-family: "OCR A Std Regular" , Garamond;
-  color: var(--color4);
+  color: var(--color1);
   font-size: min(4vw, 1em);
   line-height: 1em;
 }
