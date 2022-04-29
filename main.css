@@ -3,10 +3,23 @@
   src: url("./fonts/OCR A Std Regular.ttf") format("truetype");
 }
 
+* {
+  /* use these varibles to change colors on the whole page */
+  --color1: #fbffc1;
+  --color2: #b1e1ff;
+  --color3: #0046e8;
+  --color4: red;
+
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
 h2 {
   font-family: "OCR A Std Regular" , Garamond;
-  color: var(--color4);
-  font-size: MAX(4vw, 1em);
+  color: var(--color3);
+  font-size: max(4vw, 1em);
   line-height: 1em;
 }
 
