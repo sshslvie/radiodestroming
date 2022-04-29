@@ -1,0 +1,31 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.marquee3k p {
+  color: white;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+}
+
+#header {
+  width: 100vw;
+  height: 45px;
+  position: fixed;
+  top: 0px;
+  background-color: red;
+  border-bottom: 1px solid white;
+}
+
+.marquee3k {
+  padding-top: 8px;
+}
