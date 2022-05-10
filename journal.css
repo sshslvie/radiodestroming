@@ -1,0 +1,22 @@
+* {
+  /* use these varibles to change colors on the whole page */
+  --color1: white;
+  --color2: #b1e1ff;
+  --color3: #0046e8;
+  --color4: red;
+  --color5: grey;
+
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width:auto;
+  background: var(--color4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 6793px;
+}
+
