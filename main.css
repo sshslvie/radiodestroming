@@ -5,7 +5,7 @@
 
 @font-face {
   font-family:"IBMPlexMono-Regular";
-  src: url("./fonts/IBMPlexMono-Regular.ttf") format("truetype");
+  src: url("./fonts/IBMPlexMono-ExtraLight.ttf") format("truetype");
 }
 
 * {
@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-family: "IBMPlexMono-Regular";
+  font-family: "IBMPlexMono-ExtraLight";
   color: white;
   font-size: max(1.4vw, 1em);
   line-height: 1em;
