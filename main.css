@@ -73,3 +73,20 @@ h3 {
 }
 
 
+.resourcebox {
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px;
+  color: var(--color4);
+  background-color: var(--color4);
+  padding: 30px;
+  Padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: centre;
+}
+
+
