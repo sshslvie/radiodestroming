@@ -32,7 +32,7 @@ h1  {
 h2 {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color4);
-  font-size: max(3.2vw, 0.5em);
+  font-size: max(3.4vw, 0.5em);
   line-height: 7em;
   left-padding:  3%;
 }
@@ -40,7 +40,7 @@ h2 {
 h3 {
   font-family: "IBMPlexMono-Thin";
   color: white;
-  font-size: max(1.4vw, 1em);
+  font-size: max(1.1vw, 0.8em);
   line-height: 1em;
   left-padding:  3%;
 }
