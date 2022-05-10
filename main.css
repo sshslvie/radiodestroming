@@ -33,7 +33,10 @@ h2 {
 }
 
 h3 {
-
+  color: white;
+  font-size: max(1.4vw, 1em);
+  line-height: 1em;
+  left-padding:  3%;
 }
 
 
@@ -67,11 +70,6 @@ h3 {
   margin-left: 40px;
   margin-right: 40px;
   position: centre;
-}
-
-#archivebox:hover {
-  background-color: white;
-  color: red;
 }
 
 
