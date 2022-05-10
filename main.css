@@ -3,6 +3,11 @@
   src: url("./fonts/OCR A Std Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family:"IBMPlexMono-Regular";
+  src: url("./fonts/IBMPlexMono-Regular.ttf") format("truetype");
+}
+
 * {
   /* use these varibles to change colors on the whole page */
   --color1: white;
@@ -33,6 +38,7 @@ h2 {
 }
 
 h3 {
+  font-family: "IBMPlexMono-Regular";
   color: white;
   font-size: max(1.4vw, 1em);
   line-height: 1em;
