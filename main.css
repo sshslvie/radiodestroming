@@ -32,7 +32,7 @@ h1  {
 h2 {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color4);
-  font-size: max(3.4vw, 0.5em);
+  font-size: max(3.2vw, 0.5em);
   line-height: 7em;
   left-padding:  3%;
 }
