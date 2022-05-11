@@ -78,7 +78,7 @@ h3 {
   position: centre;
 }
 
-.chatbox {
+#chatbox {
   padding: 10px;
   top: 20%;
 }
