@@ -78,13 +78,17 @@ h3 {
   position: centre;
 }
 
+
+
 #chatbox {
   padding: 30px;
   top: 30%;
 }
 
-
-
+#listenbox {
+  padding: 30px;
+  top: 30%;
+}
 
 #RICH {
   Position: absolute;
