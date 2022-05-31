@@ -40,7 +40,7 @@ h2 {
 h3 {
   font-family: "IBMPlexMono-Thin";
   color: white;
-  font-size: max(1.1vw, 0.7em);
+  font-size: max(1.3vw, 0.9em);
   line-height: 1em;
   left-padding:  3%;
 }
