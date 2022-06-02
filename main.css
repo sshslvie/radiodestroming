@@ -45,6 +45,13 @@ h3 {
   left-padding:  3%;
 }
 
+h4 {
+  font-family: "IBMPlexMono-Thin";
+  color: red;
+  font-size: max(1vw, 0.6em);
+  line-height: 1em;
+  left-padding:  3%;
+}
 
 .box {
   overflow: hidden;
@@ -91,10 +98,6 @@ h3 {
    border-bottom: 1px solid red;
 }
 
-.title {
- position: fixed;
- left: 20%;
-}
 
 #chatbox {
   padding: 20px;
@@ -103,8 +106,19 @@ h3 {
 }
 
 #listenbox {
-  padding: 20px;
-  top: 30%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px;
+  color: var(--color2);
+  background-color: var(--color3);
+  padding: 30px;
+  Padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: centre;
 }
 
 #KEY {
