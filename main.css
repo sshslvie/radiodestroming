@@ -28,6 +28,16 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
 h1  {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color1);
@@ -71,12 +81,23 @@ h4 {
    text-align: center;
    z-index: 680;
    border-bottom: 1.2px solid red;
-   height: 50px;
+   position: centre;
+   margin: auto;
+   height: fixed;
+   padding: 1.2%;
 }
 
-#header-content {
+
+
+/* title */
+
+#title {
+  position: centre;
+  padding-top: 58px;
+  padding-bottom: 58px;
   margin: auto;
-  padding:  1.2%;
+  width: 100%;
+  font-size: 0.8rem;
 }
 
 /* boxes */
@@ -84,74 +105,36 @@ h4 {
 .box {
   overflow: hidden;
   border-radius: 20px;
-  padding: 10px;
-  color: var(--color2);
-  background-color: var(--color3);
+  position: absolute;
   padding: 30px;
   Padding-left: 15px;
   padding-right: 5px;
-  margin-top: 2px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  position: centre;
 }
 
-.archivebox {
-  overflow: hidden;
-  border-radius: 20px;
-  padding: 10px;
-  color: var(--color5);
-  background-color: var(--color5);
-  padding: 30px;
-  Padding-left: 15px;
-  padding-right: 5px;
-  margin-top: 2px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  position: centre;
+#archivebox {
+ color: var(--color5);
+ background-color: var(--color5);
+ top: 200px;
 }
-
 
 #listenbox {
-  position: fixed;
-  margin-left: 81%;
-  margin-top: 0.5%;
+  color: var(--color2);
+  background-color: var(--color3);
   z-index: 690;
 }
 
-/* title */
-
-#title {
-  position: absolute;
-  padding-top: 58px;
-  padding-bottom: 58px;
-  margin: auto;
-  width: 100%;
-}
-
 #chatbox {
+  color: var(--color2);
+  background-color: var(--color3);
   padding: 20px;
   top: 30%;
   z-index: 600;
+  top: 100px;
 }
 
-#listenbox {
-  overflow: hidden;
-  border-radius: 20px;
-  padding: 10px;
-  color: var(--color2);
-  background-color: var(--color3);
-  padding: 30px;
-  Padding-left: 15px;
-  padding-right: 5px;
-  margin-top: 2px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
-  position: centre;
-}
+
+
+
 
 #KEY {
   Position: absolute;
