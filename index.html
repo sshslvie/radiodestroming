@@ -10,22 +10,61 @@
 
  <!-- ******HEADER****** -->
 
-<div class=header>
-  <p><h4>About Archive Resources</h4></p>
+<div class="header">
+  <div id="header-content">
+    <p><h4>About Archive Resources</h4></p>
+    </div>
+</div>
+
+<!-- ******LIVE STREAM****** -->
+
+<script type="text/javascript">
+var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        controlBtn.className = "pause";
+    } else { 
+        track.pause();
+         //controlBtn.textContent = "Play";
+        controlBtn.className = "play";
+    }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+  controlBtn.className = "play";
+});
+</script>
+
+<audio id="track">
+ <source src="https://radio.stationdestroming.com:8000/radio.mp3" type="audio/mpeg">
+            Audio tag is not supported in this browser 
+         </audio>
+<div id="player-container">
+  <div id="play-pause" class="play">Play</div>
 </div>
 
 
-<div id ="title">
+
+
+ <!-- ******TITLE****** -->
+
+<div id="title">
     <p><h2><center>Radio Rotterdam : de Stroming</center></h2></p>
 </div>
 
 <!-- ******LIVE STREAM****** -->
-<main class="row bottom">
     <div id="listenbox">
         <h1>LISTEN LIVE</h1>
          <div id="listenbox">
         <audio controls>
          <source src="https://radio.stationdestroming.com:8000/radio.mp3" type="audio/mpeg">
+            Audio tag is not supported in this browser 
          </audio>
         </div>
     </div>
