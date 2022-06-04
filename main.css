@@ -101,7 +101,7 @@ h4 {
 }
 
 #header-content {
-  margin-left: 82%;
+  margin-right: -82%;
 }
 
 /* title */
@@ -159,6 +159,8 @@ h4 {
   background-size:20px;
   background-color: gainsboro;
   position: fixed;
+  margin-left: 12%;
+  margin-top: 0.2%;
 }
 .play {
   background-image: url(data:./img/play.png);
