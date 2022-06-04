@@ -53,6 +53,28 @@ h4 {
   left-padding:  3%;
 }
 
+/* header */
+
+.header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: white;
+   color: white;
+   text-align: center;
+   z-index: 680;
+   border-bottom: 1.2px solid red;
+   height: 50px;
+}
+
+#header-content {
+  margin: auto;
+  padding:  1.2%;
+}
+
+/* boxes */
+
 .box {
   overflow: hidden;
   border-radius: 20px;
@@ -85,25 +107,6 @@ h4 {
   position: centre;
 }
 
-/* header */
-
-.header {
-   position: fixed;
-   left: 0;
-   top: 0;
-   width: 100%;
-   background-color: white;
-   color: white;
-   text-align: center;
-   z-index: 680;
-   border-bottom: 1.2px solid red;
-   height: 50px;
-}
-
-#header-content {
-  margin-left: -80%;
-  padding:  1.2%;
-}
 
 #listenbox {
   position: fixed;
@@ -128,7 +131,7 @@ h4 {
   z-index: 600;
 }
 
-#listenbol {
+#listenbox {
   overflow: hidden;
   border-radius: 20px;
   padding: 10px;
