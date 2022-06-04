@@ -22,6 +22,12 @@
   margin: 0;
 }
 
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 h1  {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color1);
