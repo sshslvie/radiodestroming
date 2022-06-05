@@ -91,6 +91,21 @@ h4 {
    padding: 1.2%;
 }
 
+.header2 {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 10%;
+   background-color: transparent;
+   color: white;
+   text-align: left;
+   z-index: 680;
+   position: centre;
+   margin: auto;
+   height: fixed;
+   padding: 1.2%; 
+}
+
 /* title */
 
 #title {
