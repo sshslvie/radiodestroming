@@ -42,7 +42,7 @@ a:hover {
 
 h1  {
   font-family: "OCR A Std Regular" , Garamond;
-  color: var(--color1);
+  color: var(--color5);
   font-size: min(4vw, 1em);
   line-height: 0.8em;
 }
@@ -128,20 +128,14 @@ h4 {
   padding-right: 5px;
 }
 
-#archivebox {
- color: var(--color5);
- background-color: var(--color5);
- top: 200px;
-}
-
-#livestream {
+#LIVESTREAM {
   z-index: 690;
   position: absolute;
   margin-left: 5vw;
   margin-top: 35vh;
 }
 
-#chatbox {
+#CHATBOX {
   color: transparent;
   background-color: transparent;
   padding: 20px;
@@ -150,12 +144,27 @@ h4 {
   margin-left: 5vw;
 }
 
+/* boxes */
+
 #TIME {
   Position: absolute;
   z-index: 650;
   background: transparent;
   margin-left: 78vw;
   margin-top: 35vh;
+}
+
+#SCHEDULE {
+  Position: absolute;
+  z-index: 640;
+  margin-left: 53vw;
+  margin-top: 35vh;
+}
+
+#archivebox {
+ color: var(--color5);
+ background-color: var(--color5);
+ top: 10vh;
 }
 
 /* boxes 
