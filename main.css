@@ -23,7 +23,7 @@
 }
 
 a:link {
-  color: red;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
@@ -84,7 +84,7 @@ h4 {
    color: white;
    text-align: center;
    z-index: 680;
-   border-bottom: 1.2px solid red;
+   border-bottom: 1.2px solid blue;
    position: centre;
    margin: auto;
    height: fixed;
@@ -137,7 +137,6 @@ h4 {
 }
 
 
-
 #KEY {
   Position: absolute;
   z-index: 650;
@@ -145,6 +144,9 @@ h4 {
   margin-left: 70%;
 }
 
+#TIME {
+
+}
 
 
 
