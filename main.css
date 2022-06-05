@@ -82,7 +82,7 @@ h4 {
    width: 100%;
    background-color: white;
    color: white;
-   text-align: center;
+   text-align: right;
    z-index: 680;
    border-bottom: 1.2px solid red;
    position: centre;
@@ -123,7 +123,7 @@ h4 {
   z-index: 690;
   position: absolute;
   margin-left: 5vw;
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 
 #chatbox {
@@ -131,9 +131,16 @@ h4 {
   background-color: transparent;
   padding: 20px;
   z-index: 600;
-  margin-top: 35vh;
+  margin-top: 37vh;
 }
 
+#TIME {
+  Position: absolute;
+  z-index: 650;
+  background: transparent;
+  margin-left: 78vw;
+  margin-top: 35vh;
+}
 
 /* boxes 
 #KEY {
