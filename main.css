@@ -128,8 +128,8 @@ h4 {
 }
 
 #chatbox {
-  color: var(--color2);
-  background-color: var(--color3);
+  color: transparent;
+  background-color: transparent;
   padding: 20px;
   top: 30%;
   z-index: 600;
