@@ -95,7 +95,6 @@ h4 {
 
 #title {
   position: centre;
-  padding-top: 58px;
   padding-bottom: 58px;
   margin: auto;
   width: 100%;
@@ -136,7 +135,7 @@ h4 {
 }
 
 
-
+/* boxes 
 #KEY {
   Position: absolute;
   z-index: 650;
@@ -144,9 +143,14 @@ h4 {
   margin-left: 70%;
 }
 
+<div id="KEY">
+<img src="./img/key.png" alt="key tweebosbuurt"
+  width="120">
+</div>
+
 #TIME {
 
 }
-
+*/
 
 
