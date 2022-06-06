@@ -209,8 +209,8 @@ h5 {
   Position: absolute;
   z-index: 800;
   background: transparent;
-  margin-left: 78vw;
-  margin-top: 300px;
+  margin-left: 800px;
+  margin-top: 340px;
   position: fixed;
 }
 
@@ -239,6 +239,12 @@ h5 {
 #TIME {
 
 }
+
+ <!-- ******FOOTER****** -->
+
+<div class="footer">
+   <h4><p>Mailinglist: the Unstable Newsletter</h4></p>
+  </div>
+</div>
+
 */
-
-
