@@ -227,7 +227,7 @@ h5 {
   z-index: 800;
   background: transparent;
   margin-left: 850px;
-  margin-top: 255px;
+  margin-top: 375px;
   position: fixed;
 }
 
@@ -236,15 +236,20 @@ h5 {
   filter: drop-shadow(0px 0px 23px red);
 }
 
-#NEWSLETTER {
+/* #MAIL:hover + #hoversubscription {
+  display: block;
+}
+
+#hoversubscription {
   Position: absolute;
   z-index: 800;
-  background: red;
-  margin-left: 850px;
+  background: transparent;
+  margin-left: 30%;
   margin-top: 255px;
-  position: fixed;|
+  position: fixed;
   display: none;
-}
+  position: center;
+}/* 
 
 
 /* ///////ARCHIVE PAGE*/
