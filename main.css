@@ -144,7 +144,7 @@ h4 {
   margin-left: 2vw;
 }
 
-/* boxes */
+/* schedule */
 
 #TIME {
   Position: absolute;
@@ -154,12 +154,49 @@ h4 {
   margin-top: 35vh;
 }
 
-#SCHEDULE {
+#LINEUP {
   Position: absolute;
   z-index: 640;
   margin-left: 53vw;
   margin-top: 37vh;
 }
+
+/* about page */
+
+h5 {
+  font-family: "IBMPlexMono-Thin";
+  color: grey;
+  font-size: max(1.1vw, 0.7em);
+  line-height: 1.2em;
+  left-padding:  3%;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: white;
+   text-align: right;
+   z-index: 680;
+   border-top: 1.2px solid red;
+   margin: auto;
+   height: fixed;
+   padding: 1.2%;
+}
+
+#ABOUT {
+  position: centre;
+  padding-bottom: 58px;
+  margin: auto;
+  width: 60%;
+  font-size: 1.1em;
+  height: fixed;
+  margin-top: 150px;
+}
+
+/* archive */
 
 #archivebox {
  color: var(--color5);
