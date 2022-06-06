@@ -79,8 +79,17 @@ h6 {
   left-padding:  3%;
 }
 
+.box {
+  border-radius: 20px;
+  position: absolute;
+  padding: 30px;
+  Padding-left: 15px;
+  padding-right: 5px;
+}
 
-/* header */
+/* ///////MAINPAGE */ 
+
+/*header */
 
 .header {
    position: fixed;
@@ -125,15 +134,7 @@ h6 {
   Position: fixed;
 }
 
-/* boxes */
-
-.box {
-  border-radius: 20px;
-  position: absolute;
-  padding: 30px;
-  Padding-left: 15px;
-  padding-right: 5px;
-}
+/* Listen live */
 
 #LIVESTREAM {
   z-index: 690;
@@ -177,7 +178,7 @@ h6 {
   position: fixed;
 }
 
-/* about page */
+/* ////////ABOUT PAGE */
 
 h5 {
   font-family: "IBMPlexMono-Thin";
@@ -246,17 +247,15 @@ h5 {
 }
 
 
+/* ///////ARCHIVE PAGE*/
 
 
-/* archive */
-
-
-#DEARNAV {
+#MAP {
   Position: absolute;
   z-index: 640;
   background: transparent;
-  margin-left: 600p;
-  margin-top: 250px;
+  margin-left: 45px;
+  margin-top: 0vh;
   position: fixed;
 }
 
@@ -271,7 +270,25 @@ h5 {
   margin-top: 150px;
 }
 
-/* resources */
+/* footer */ 
+
+.footer { 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: right;
+  z-index: 680;
+  top-bottom: 1.2px solid red;
+  position: centre;
+  margin: auto;
+  height: fixed;
+  padding: 10%;
+ }
+
+
+/* ///////RESOURCE PAGE */
 
 #resourcebox {
  color: var(--color1);
@@ -299,13 +316,6 @@ h5 {
 #TIME {
 
 }
-
- <!-- ******FOOTER****** -->
-
-<div class="footer">
-   <h4><p>Mailinglist: the Unstable Newsletter</h4></p>
-  </div>
-</div>
 
 #archivebox {
  color: var(--color5);
