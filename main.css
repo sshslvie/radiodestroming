@@ -141,7 +141,7 @@ h4 {
   padding: 20px;
   z-index: 600;
   margin-top: 37vh;
-  margin-left: 2vw;
+  margin-left: 1vw;
 }
 
 /* schedule */
@@ -155,17 +155,17 @@ h4 {
 
 #TIME {
   Position: absolute;
-  z-index: 650;
+  z-index: 640;
   background: transparent;
-  margin-left: 78vw;
-  margin-top: 35vh;
+  margin-left: 60vw;
+  margin-top: 230px;
   position: fixed;
 }
 
 #LINEUP {
   Position: absolute;
-  z-index: 640;
-  margin-left: 53vw;
+  z-index: 650;
+  margin-left: 63vw;
   margin-top: 37vh;
   position: fixed;
 }
@@ -210,7 +210,7 @@ h5 {
   z-index: 800;
   background: transparent;
   margin-left: 850px;
-  margin-top: 320px;
+  margin-top: 355px;
   position: fixed;
 }
 
@@ -224,7 +224,7 @@ h5 {
   z-index: 800;
   background: red;
   margin-left: 850px;
-  margin-top: 320px;
+  margin-top: 355px;
   position: fixed;|
   display: none;
 }
