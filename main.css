@@ -11,8 +11,8 @@
 * {
   /* use these varibles to change colors on the whole page */
   --color1: white;
-  --color2: #b1e1ff;
-  --color3: #0046e8;
+  --color2: #b1e1ff; /* light blue */
+  --color3: #0046e8; /* blue */
   --color4: red;
   --color5: grey;
 
@@ -209,10 +209,24 @@ h5 {
   Position: absolute;
   z-index: 800;
   background: transparent;
-  margin-left: 800px;
-  margin-top: 340px;
+  margin-left: 850px;
+  margin-top: 320px;
   position: fixed;
-  position: centre;
+}
+
+#MAIL:hover {
+  display: inline-block;
+  filter: drop-shadow(0px 10px 40px red);
+}
+
+#NEWSLETTER {
+  Position: absolute;
+  z-index: 800;
+  background: red;
+  margin-left: 850px;
+  margin-top: 320px;
+  position: fixed;|
+  display: none;
 }
 
 /* archive */
