@@ -226,7 +226,7 @@ h5 {
   z-index: 800;
   background: transparent;
   margin-left: 850px;
-  margin-top: 355px;
+  margin-top: 255px;
   position: fixed;
 }
 
@@ -240,7 +240,7 @@ h5 {
   z-index: 800;
   background: red;
   margin-left: 850px;
-  margin-top: 355px;
+  margin-top: 255px;
   position: fixed;|
   display: none;
 }
@@ -250,11 +250,37 @@ h5 {
 
 /* archive */
 
-#archivebox {
- color: var(--color5);
- background-color: var(--color5);
- top: 10vh;
+
+#DEARNAV {
+  Position: absolute;
+  z-index: 640;
+  background: transparent;
+  margin-left: 600p;
+  margin-top: 250px;
+  position: fixed;
 }
+
+
+.season1 {
+  position: centre;
+  padding-bottom: 58px;
+  margin: auto;
+  width: 60%;
+  font-size: 1.1em;
+  height: fixed;
+  margin-top: 150px;
+}
+
+/* resources */
+
+#resourcebox {
+ color: var(--color1);
+ background-color: var(--color5);
+ margin-top: 60px;
+ width: 80%;
+ height: 90px;
+}
+
 
 
 /* boxes 
@@ -280,5 +306,11 @@ h5 {
    <h4><p>Mailinglist: the Unstable Newsletter</h4></p>
   </div>
 </div>
+
+#archivebox {
+ color: var(--color5);
+ background-color: var(--color5);
+ top: 10vh;
+}
 
 */
