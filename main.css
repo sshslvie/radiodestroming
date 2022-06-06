@@ -71,6 +71,13 @@ h4 {
   left-padding:  3%;
 }
 
+h6 {
+  font-family: "IBMPlexMono-Thin";
+  color: var(--color5);
+  font-size: max(1.1vw, 0.7em);
+  line-height: 1em;
+  left-padding:  3%;
+}
 
 
 /* header */
@@ -205,6 +212,15 @@ h5 {
   margin-top: 150px;
 }
 
+/* newsletter */
+
+.signup {
+ margin-top: 150px;
+ margin-left: 40%;
+ position: centre;
+ position: fixed;
+}
+
 #MAIL {
   Position: absolute;
   z-index: 800;
@@ -228,6 +244,9 @@ h5 {
   position: fixed;|
   display: none;
 }
+
+
+
 
 /* archive */
 
