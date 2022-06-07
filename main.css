@@ -227,7 +227,7 @@ h5 {
   z-index: 800;
   background: transparent;
   margin-left: 850px;
-  margin-top: 375px;
+  margin-top: 415px;
   position: fixed;
 }
 
@@ -289,7 +289,13 @@ h5 {
   position: centre;
   margin: auto;
   height: fixed;
-  padding: 10%;
+  padding: 8%;
+  overflow: auto
+ }
+
+ #PASTSHOWS {
+  bottom: 0;
+  margin-left: 10wv;
  }
 
 
