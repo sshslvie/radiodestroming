@@ -303,8 +303,9 @@ h5 {
 
 #resourcebox {
  color: var(--color1);
- background-color: var(--color5);
- margin-top: 60px;
+ background-color: transparant;
+ margin-top: 80px;
+ margin-left: 20px;
  width: 80%;
  height: 90px;
 }
