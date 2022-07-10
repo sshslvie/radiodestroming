@@ -166,7 +166,7 @@ h6 {
   z-index: 640;
   background: transparent;
   margin-left: 60vw;
-  margin-top: 40vh;
+  margin-top: 35vh;
   position: fixed;
   border: 1px solid #555;
 }
@@ -217,8 +217,8 @@ h5 {
 /* newsletter */
 
 .signup {
- margin-top: 150px;
- margin-left: 40%;
+ margin-top: 100px;
+ margin-left: 3%;
  position: centre;
  position: fixed;
 }
