@@ -50,9 +50,10 @@ h1  {
 h2 {
   font-family: "OCR A Std Regular" , Garamond;
   color: var(--color4);
-  font-size: max(3.4vw, 0.5em);
-  line-height: 7em;
+  font-size: max(1.4vw, 0.2em);
+  line-height: 1em;
   left-padding:  3%;
+  top-padding:  1.5%;
 }
 
 h3 {
@@ -104,18 +105,18 @@ h6 {
    position: centre;
    margin: auto;
    height: fixed;
-   padding: 1.2%;
+   padding: 1.4%;
 }
 
 .header2 {
    position: fixed;
    left: 0;
    top: 0;
-   width: 10%;
-   background-color: transparent;
+   width: 70%;
+   background-color: white;
    color: white;
    text-align: left;
-   z-index: 680;
+   z-index: 690;
    position: centre;
    margin: auto;
    height: fixed;
